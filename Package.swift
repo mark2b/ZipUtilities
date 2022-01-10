@@ -16,7 +16,11 @@ let package = Package(
     targets: [
         .target(
             name: "ZipUtilities",
-            path: "ZipUtilities"
+            path: "ZipUtilities",
+            exclude: [
+                "Info.plist",
+                "OSX-Info.plist"
+            ]
         ),
     ]
 )
