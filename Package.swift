@@ -16,7 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "ZipUtilities",
-            path: ".",
             exclude: [
                 "ZipUtilities/Info.plist",
                 "ZipUtilities/OSX-Info.plist"
@@ -26,7 +25,6 @@ let package = Package(
             ],
             cSettings: [
                 .headerSearchPath("."),
-                .headerSearchPath("ZipUtilities")
             ]
         ),
     ]
