@@ -21,7 +21,10 @@ let package = Package(
                 "Info.plist",
                 "OSX-Info.plist"
             ],
-            publicHeadersPath: "."
+            cSettings: [
+                .headerSearchPath("."),
+                .headerSearchPath("ZipUtilities")
+            ]
         ),
     ]
 )
