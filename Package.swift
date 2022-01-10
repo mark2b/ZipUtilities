@@ -17,12 +17,12 @@ let package = Package(
         .target(
             name: "ZipUtilities",
             path: ".",
-            sources: [
-                "ZipUtilities"
-            ],
             exclude: [
                 "Info.plist",
                 "OSX-Info.plist"
+            ],
+            sources: [
+                "ZipUtilities"
             ],
             cSettings: [
                 .headerSearchPath("."),
