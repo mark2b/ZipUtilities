@@ -23,6 +23,7 @@ let package = Package(
             ],
             cSettings: [
                 .headerSearchPath("."),
+                .headerSearchPath(".."),
                 .headerSearchPath("ZipUtilities")
             ]
         ),
