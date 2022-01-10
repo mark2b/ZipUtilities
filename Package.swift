@@ -18,8 +18,8 @@ let package = Package(
             name: "ZipUtilities",
             path: ".",
             exclude: [
-                "Info.plist",
-                "OSX-Info.plist"
+                "ZipUtilities/Info.plist",
+                "ZipUtilities/OSX-Info.plist"
             ]
         ),
     ]
